@@ -29,6 +29,9 @@ jobs:
 
       - name: Maven Test
         run: mvn org.owasp:dependency-check-maven:check
+        env:
+          # GITHUB_TOKEN is provided by default in the repo with read/write access to Github Packages
+          GITHUB_TOKEN: ${{ secrets.GH_REPO_ACCESS }}
 
       - run: mkdir owasp-dependency-check-report && cp target/dependency-check-report.html owasp-dependency-check-report
 
