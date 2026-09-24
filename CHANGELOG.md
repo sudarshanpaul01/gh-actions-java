@@ -18,3 +18,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.0.4]: https://github.com/wesleyegberto/gh-actions-java/compare/0.0.2...0.0.4
 
 [0.0.2]: https://github.com/wesleyegberto/gh-actions-java/compare/9eb8641e11dd74480706b51f592f4854fcf355e5...0.0.2
+
+
