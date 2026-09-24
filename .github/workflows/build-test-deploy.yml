@@ -48,7 +48,7 @@ jobs:
         run: mvn -B deploy
         env:
           # GITHUB_TOKEN is provided by default in the repo with read/write access to Github Packages
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_REPO_ACCESS }}
           # When using Maven Central Repository
           # MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
           # MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
